@@ -1,0 +1,10 @@
+{
+  "name": "lib",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+
+}

@@ -1,0 +1,15 @@
+{
+  "name": "zog-be",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "lib",
+    "main"
+  ],
+  "scripts": {
+    "build": "npm run build -ws"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

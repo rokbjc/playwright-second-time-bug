@@ -1,0 +1,15 @@
+{
+  "name": "main",
+  "scripts": {
+    "build": "tsc",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.47.2",
+    "lib": "file:../lib"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+
+}
